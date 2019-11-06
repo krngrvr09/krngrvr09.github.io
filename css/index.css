@@ -1,3 +1,15 @@
+.icon {
+  max-width: 60%;
+
+}
+
+.icon-column {
+  margin-top: 8%;
+  flex: 25%;
+  max-width: 40%;
+  padding: 0 4px;  
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
