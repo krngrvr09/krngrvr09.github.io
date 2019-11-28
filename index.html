@@ -1,42 +1,96 @@
+<!DOCTYPE html>
+<html>
 <head>
-  <link rel="stylesheet" href="./css/index.css">
+    <title>Karan Grover</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/user.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'KARAN';
+		}
+	</style>
 </head>
-<div class="row">
-	<div class="column1">
-		<img src="./photos/Karan_Pic.jpg">
-		<div class="row">
-			<div class="icon-column">
-				<a  href = "https://www.twitter.com/krngrvr09" target="_blank"><img class = "icon" src="./icons/twitter.png"></a>
-			</div>
-
-			<div class="icon-column">
-				<a href = "https://www.instagram.com/krngrvr09/" target="_blank"><img class = "icon" src="./icons/instagram-logo.png"></a>
-			</div>
-
-			<div class="icon-column">
-				<a href = "https://www.linkedin.com/in/krngrvr09/" target="_blank"><img class = "icon" src="./icons/linkedin-logo.png"></a>
-			</div>
-
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">DRACO</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="./docs/resume_krngrvr09.pdf">Resume</a></li>
+				    </ul>
+				</nav>
+			</header>
 		</div>
 	</div>
-	<div class="column2">
-		Hello, I am Karan Grover. I am a Research Fellow at Microsoft Research. I received by B.Tech degree from IIIT Delhi. During my Bachelor's studies, I worked as a Research Assistant for 6 months at Singapore Management University. During this RAship I published two papers at ISWC '18 and WristSense Workshop '17.<br><br>
 
-		When I am not coding, I like to click <a href="./photos.html">Photographs</a>. I talk a little bit about my Programming Journey <a href = "./programming_journey.html">here</a>.<br><br>
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hello, I’m Karan Grover</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I am a<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					I am a Software Engineer at Microsoft Research. My primary interests include designing practical, reliable and efficient systems with a focus on security. I spent 2018 as a Research Fellow at Microsoft Research developing <a href=""> Privado</a>. In 2016, I spent six months at Singapore Management University as a Research Assistant where I published two <a href="https://dblp.uni-trier.de/pers/hd/g/Grover:Karan"> research papers</a>.
+				</p>
+			</div>
+		</div>
+	</div>
 
-		You can find my CV <a href="./docs/Karan_Resume_Engg.pdf">here</a>.<br><br>
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>fight against the ugliness.</h1>
+		</div>
+	</div>
 
-		If you wish to send me an anonymous feedback, you can send it <a href="https://forms.gle/na8eFqWHXcLBtrY48">here</a>.
-	</div>	
-</div>
-<br>
-<br>
-<div class="row">
-News <br>
-- [Oct 2019] Started working as SDE 2 at Microsoft Research, India. I am currently working on Blockene - A high throughput blockchain on mobile phones.<br>
-- [July 2018] Started working as a Research Fellow at Microsoft Research, India. I worked on building a practical and secure DNN Inference Service called Privado. Our paper is under submission at EuroSys '20'.<br>
-- [Jun 2018] Our paper titled I4S : Capturing Shopper's In-store Interactions has been accepted and will appear in the proceedings of ISWC 2018.<br>
-- [Feb 2018] Started working as a Research Intern at Microsoft Research, India. <br>
-- [Dec 2017] Graduated from IIIT Delhi with a Bachelor of Technology Degree in Computer Science<br>
-- [Dec 2016] Our paper titled 'Inferring smartphone keypress via smartwatch inertial sensing' has been accepted and will be presented at WristSense Workshop.<br>
-</div>
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Inspired by Afnizar Nur Ghifari(@afnizarnur)</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:karan13048@iiitd.ac.in"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/krngrvr09"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://unsplash.com/@krngrvr09"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Engineer", "Photographer"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
