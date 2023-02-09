@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)https://jailuthra.in/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Karan Grover</title>
+        <link rel="stylesheet" href="./css/index.css">
+</head>
+    <body>
+        <div id="content">
+            <div id="navbar">
+                <h1 id="heading"><a href="./index.html">Karan Grover</a></h1>
+                <ul>
+                    <li><a href="./index.html">home</a> </li>
+                    
+                </ul>
+
+            </div>
+
+            <div>
+                <h2 id="publications">published work</h2>
+					<p>Some of my notable work as been published at popular conferences. They are listed below.</p>
+			<ul>
+				<li><a href="https://arxiv.org/pdf/1810.00602.pdf"><h3>PRIVADO: Practical and Secure DNN Inference with Enclaves</h3></a></li>
+				<p>Project Privado was developed in collaboration with Azure Confidential Computing to provide a cloud-native secure ML Solution using IntelSGX. In this project we explore the performance, security and practicality of deploying a DNN Inference-as-a-Service. We show that running DNNs inside Intel SGX incur a low 17% performance overhead on average over 11 different Neural Networks. We show that DNNs inside Intel SGX are vulnerable to access pattern based side-channel attacks and develop a system that can convert any deep learning framework written in C/C++ to be free from this vulnerability and ready to be served from inside Intel SGX.</p>
+				<p> <b>Key Technologies</b>: C++, Machine Learning, PyTorch, ONNX Runtime, Intel SGX
+				<li><a href="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/blockene-osdi20-5f97c46c0dae1.pdf"><h3>Blockene: A High-throughput Blockchain Over Mobile Devices</h3></a></li>
+				<p>Project Blockene was developed with a goal of building a one-of-its-kind scalable, high throughput and ligh-weight blockchain protocol. At a time when popular blockchain protocols like Bitcoin and Algorand required member nodes to be powerful servers, we came up with a novel system design to allow smartphones to participate in the blockchain protocol minimal network, storage and battery overhead. We do this using a split-trust design where a few heavy machines(Politicians) store the blockchain and the lightweight smartphones(Citizens) vote through the Politicians to decide the next block. We were avlle to achieve an impressive throughput of 1045 transactions/second compared to 10 transactions/second of Bitcoin. The work required setting up and automating the testbed infrastructure on Azure, implementing various consensus and gossip protocols over gRPC and writing over 20,000 lines of code in C++ and Java to implement Citizens and Politicians.</p>
+				<p> <b>Key Technologies</b>: Blockchain, C++, Java, gRPC, Azure, Byzantine Consensus Algorithms
+				<li><a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5208&context=sis_research"><h3>I4S: Capturing shopper’s in-store interactions</h3></a></li>
+				<p>Project I4s was developed with the goal of tracking in-store interaction of customers using passive sensor data from their smartphone, smartwatch and in-store BLE Beacons. We built a gesture-triggered pipeline to identify "pick" gestures and perform localization of such gestures. The goal was to have a deeper insight into customers' interests in addition to what they bought. We trained a random forest model on sensor fusion data from smartphone and smartwatch to identify general picking gestures with the precision of over 88%. We were also able to find the correct location of the item picked with the precision of over 91%.</p>
+				<p><b>Key Technologies</b>: Machine Learning, Android, Sensor Fusion</p>
+				<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7917646"><h3>Inferring smartphone keypress via smartwatch inertial sensing</h3></a></li>
+				<p>This project was developed to explore the idea of inferring smartphone keypresses using sensorfusion data from smartwatch of the person typing. This is a classic side-channel attack which can be used to leak passwords and sensitive information of the user typing their data. We found that we can infer the user’s entry pattern on a qwerty keyboard, with an error bound of ±2 neighboring keys, with 73.85% accuracy. As a possible preventive mechanism, we also show that adding a little white noise to inertial sensor data can reduce the inference accuracy by almost 30%, without affecting the accuracy of macro-gesture recognition.</p>
+				<p><b>Key Technologies</b>: Machine Learning, Android, Sensor Fusion</p>
+			</ul>
+            </div>
+            
+
+
+        </div>
+    
+
+</body></html>
